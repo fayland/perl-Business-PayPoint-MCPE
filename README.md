@@ -1,6 +1,6 @@
 # NAME
 
-Business::PayPoint::MCPE - Blah blah blah
+Business::PayPoint::MCPE - PayPoint: Merchant Card Payment Engine
 
 # SYNOPSIS
 
@@ -8,7 +8,7 @@ Business::PayPoint::MCPE - Blah blah blah
 
 # DESCRIPTION
 
-Business::PayPoint::MCPE is
+Business::PayPoint::MCPE is for [https://www.paypoint.net/assets/guides/MCPE_Freedom+IMA_2.3.pdf](https://www.paypoint.net/assets/guides/MCPE_Freedom+IMA_2.3.pdf)
 
 # AUTHOR
 

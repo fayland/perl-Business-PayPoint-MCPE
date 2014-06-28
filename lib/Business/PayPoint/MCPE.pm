@@ -73,7 +73,7 @@ __END__
 
 =head1 NAME
 
-Business::PayPoint::MCPE - Blah blah blah
+Business::PayPoint::MCPE - PayPoint: Merchant Card Payment Engine
 
 =head1 SYNOPSIS
 
@@ -81,7 +81,7 @@ Business::PayPoint::MCPE - Blah blah blah
 
 =head1 DESCRIPTION
 
-Business::PayPoint::MCPE is
+Business::PayPoint::MCPE is for L<https://www.paypoint.net/assets/guides/MCPE_Freedom+IMA_2.3.pdf>
 
 =head1 AUTHOR
 

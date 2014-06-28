@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "PayPoint: Merchant Card Payment Engine",
    "author" : [
       "Fayland Lam <fayland@gmail.com>"
    ],
@@ -36,6 +36,8 @@
       },
       "runtime" : {
          "requires" : {
+            "IO::Socket::SSL" : "0",
+            "LWP::UserAgent" : "0",
             "perl" : "5.008005"
          }
       },
@@ -46,6 +48,17 @@
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/fayland/perl-Business-PayPoint-MCPE/issues"
+      },
+      "homepage" : "https://github.com/fayland/perl-Business-PayPoint-MCPE",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/fayland/perl-Business-PayPoint-MCPE.git",
+         "web" : "https://github.com/fayland/perl-Business-PayPoint-MCPE"
+      }
+   },
    "version" : "0.01"
 }
 
