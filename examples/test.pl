@@ -9,7 +9,7 @@ use Data::Dumper;
 
 my $bpm = Business::PayPoint::MCPE->new(
     TestMode => 1,
-    InstID => '12345',
+    InstID => '258210',
 );
 
 my $data = $bpm->payment(
