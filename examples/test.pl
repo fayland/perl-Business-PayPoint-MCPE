@@ -9,10 +9,10 @@ use Data::Dumper;
 
 my $bpm = Business::PayPoint::MCPE->new(
     TestMode => 1,
-    InstID => '258210',
+    InstID => '123456',
 );
 
-my $data = $bpm->payment(
+my %data = $bpm->payment(
     CartID => 654321,
     Desc   => 'description of goods',
     Amount => '10.00',
@@ -26,6 +26,29 @@ my $data = $bpm->payment(
     CardType   => 'VISA',
     Country    => 'GB',
 );
-print Dumper(\$data);
+print Dumper(\%data);
+
+my $TransID = $data{TransID};
+my $SecurityToken = $data{SecurityToken};
+# my %data = $bpm->refund(
+#     TransID => $TransID,
+#     SecurityToken => $SecurityToken,
+#     Amount => '5.00',
+# );
+# print Dumper(\%data);
+
+# my %data = $bpm->repeat(
+#     TransID => $TransID,
+#     SecurityToken => $SecurityToken,
+#     Amount => '5.00',
+# );
+# print Dumper(\%data);
+
+# my %data = $bpm->capture(
+#     TransID => $TransID,
+#     SecurityToken => $SecurityToken,
+#     Amount => '5.00',
+# );
+# print Dumper(\%data);
 
 1;
