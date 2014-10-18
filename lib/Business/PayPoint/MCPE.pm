@@ -111,7 +111,7 @@ sub request {
     my @fltFields = ('APIVersion', 'Amount', 'OriginalAmount', 'SchAmount', 'FraudScore');
     my @datFields = ('Fulfillment');
 
-    $params{TestMode}   ||= $self->{TestMode};
+    $params{TestMode}   = $self->{TestMode} unless exists $params{TestMode};
     $params{InstID}     ||= $self->{InstID};
     $params{APIVersion} ||= $self->{APIVersion};
 
