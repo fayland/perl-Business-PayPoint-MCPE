@@ -29,7 +29,7 @@ Business::PayPoint::MCPE - PayPoint: Merchant Card Payment Engine
 
 # DESCRIPTION
 
-Business::PayPoint::MCPE is for [https://www.paypoint.net/assets/guides/MCPE_Freedom+IMA_2.3.pdf](https://www.paypoint.net/assets/guides/MCPE_Freedom+IMA_2.3.pdf)
+Business::PayPoint::MCPE is for [https://www.paypoint.net/assets/guides/MCPE\_Freedom+IMA\_2.3.pdf](https://www.paypoint.net/assets/guides/MCPE_Freedom+IMA_2.3.pdf)
 
 # METHODS
 
